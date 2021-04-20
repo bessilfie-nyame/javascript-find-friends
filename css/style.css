@@ -1,0 +1,103 @@
+body {
+  font-family: helvetica;
+  font-size: 10px;
+}
+
+#header {
+  background-color: #f16f51;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+h1 {
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+}
+
+#main {
+  height: 94.3vh;
+  background-color: chocolate;
+}
+
+.row-wrapper {
+  position: relative;
+  height: 30%;
+  margin: 0rem 40rem;
+  padding-top: 5rem;
+  padding-bottom: 20px;
+}
+
+.row-wrapper hr {
+  width: 300px;
+  border: 1px solid black;
+  margin-left: -70px;
+  border-radius: 5px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.row label {
+  font-style: oblique;
+}
+
+.row select {
+  height: 30px;
+  font-style: bold;
+}
+
+.row select:hover {
+  cursor: pointer;
+}
+
+.row input {
+  height: 25px;
+  border-radius: 7px;
+}
+
+.row button {
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 750;
+}
+
+.row button:hover {
+  cursor: pointer;
+}
+
+#results {
+  margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+  margin: 130px 0px;
+  padding: 10px;
+  background-color: #fdb45c;
+  width: 100%;
+  float: left;
+}
+
+.person-row img {
+  float: left;
+  margin-right: 20px;
+}
+
+.personal-info {
+  float: left;
+}
+
+.person-row > button {
+  float: right;
+}
+
+.person-row button:hover {
+  cursor: pointer;
+}
